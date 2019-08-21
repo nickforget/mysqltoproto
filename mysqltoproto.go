@@ -129,8 +129,19 @@ func (this *MysqlToProto) ReadDB() (map[string][]Proto, error){
 		return nil, errors.New("Conn DB Err")
 	}
 
+	// 如果设置的表名
+	extra := ""
+	if 0 != len(this.TableName){
+		extra = " and tablename in ("
+		for _, name := range this.TableName {
+			extra += " \"" + name + "\","
+		}
+		extra = extra[0:len(extra)-1]
+		extra += ")"
+	}
+
 	// 查询数据库表和字段
-	records, err := db.Query("mytable",[]string{},"", &MyTable{TableSchema:proto.String(this.TableSchema)})
+	records, err := db.Query("mytable",[]string{},extra, &MyTable{TableSchema:proto.String(this.TableSchema)})
 
 	if nil != err{
 		return nil, errors.New("Query DB Err")

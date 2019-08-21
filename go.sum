@@ -4,5 +4,5 @@ github.com/go-sql-driver/mysql v1.4.1 h1:g24URVg0OFbNUTx9qqY1IRZ9D9z3iPyi5zKhQZp
 github.com/go-sql-driver/mysql v1.4.1/go.mod h1:zAC/RDZ24gD3HViQzih4MyKcchzm+sOG5ZlKdlhCg5w=
 github.com/golang/protobuf v1.3.2 h1:6nsPYzhq5kReh6QImI3k5qWzO4PEbvbIW2cwSfR/6xs=
 github.com/golang/protobuf v1.3.2/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
-github.com/nickforget/dboperate v0.0.0-20190816062841-d3f0af9a9bd8 h1:0M9+4vgGnSztMrovD0Y42JJ4DUuMQiw4t7HQODCVFDQ=
-github.com/nickforget/dboperate v0.0.0-20190816062841-d3f0af9a9bd8/go.mod h1:8jLpMZ7hosDVZ0KsR3uR4cCJWwgNbxAmdKKVUmTeZXM=
+github.com/nickforget/dboperate v0.0.0-20190821033442-ba24159dc7a4 h1:RLyQUOXrvlIU6DvOWkoHhezlL4Qclu/Xfm16XtWFZbo=
+github.com/nickforget/dboperate v0.0.0-20190821033442-ba24159dc7a4/go.mod h1:8jLpMZ7hosDVZ0KsR3uR4cCJWwgNbxAmdKKVUmTeZXM=

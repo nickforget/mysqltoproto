@@ -3,7 +3,7 @@ package mysqltoproto
 import "testing"
 
 func TestGenerateProto(t *testing.T) {
-	object, err := NewMysqlToProto("D:/Work/MysqlToProto/config.cfg")
+	object, err := NewMysqlToProto("D:/Github/mysqltoproto/config.cfg")
 
 	if nil != err {
 		t.Error("NewMysqlToProto Err", err)
